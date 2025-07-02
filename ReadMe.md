@@ -18,7 +18,7 @@
 </h4>
 
 <pre align="left">
-<code>
+<code dir="ltr">
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 </code>
 </pre>
@@ -28,14 +28,14 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 </h3>
 
 <pre align="left">
-<code>"source "$HOME/.nvm/nvm.sh</code>
+<code dir="ltr">source "$HOME/.nvm/nvm.sh"</code>
 </pre>
 
 <h3>
 📦 نصب نسخه‌ی ۱۸ از Node.js:
 </h3>
 <pre align="left">
-<code>nvm install 18</code>
+<code dir="ltr">nvm install 18</code>
 </pre>
 
 <h3>
@@ -43,7 +43,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 </h3>
 
 <pre align="left">
-<code>nvm use 18</code>
+<code dir="ltr">nvm use 18</code>
 </pre>
 
 <h4>
@@ -52,7 +52,7 @@ package-lock.json را حذف نمایید:
 </h3>
 
 <pre align="left">
-<code>
+<code dir="ltr">
 rm -rf node_modules package-lock.json
 </code>
 </pre>
@@ -62,7 +62,7 @@ rm -rf node_modules package-lock.json
 </h3>
 
 <pre align="left">
-<code>npm install</code>
+<code dir="ltr">npm install</code>
 </pre>
 
 <h4>
@@ -70,5 +70,5 @@ rm -rf node_modules package-lock.json
 </h4>
 
 <pre align="left">
-<code>npm run storybook</code>
+<code dir="ltr">npm run storybook</code>
 </pre>

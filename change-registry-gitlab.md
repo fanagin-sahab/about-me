@@ -37,7 +37,7 @@
 ```ini
 //193.151.145.140:3003/api/v4/projects/156/packages/npm/:_authToken=your-token
 @agin:registry=http://193.151.145.140:3003/api/v4/projects/156/packages/npm/
- 
+legacy-peer-deps=true
  ```
 
 به جای your-token، توکنی را که در GitLab ایجاد کردید قرار دهید.

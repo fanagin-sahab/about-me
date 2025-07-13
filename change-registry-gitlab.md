@@ -17,10 +17,13 @@
 
 ### در فرم باز شده:
 
- یک **نام دلخواه** برای توکن وارد کنید.
- مقدار **Expiration date** را خالی کنید.
+ یک **نام دلخواه** برای توکن وارد کنید.  
+
+ مقدار **Expiration date** را خالی کنید.  
+
  گزینه‌های **api** و **read_api** را فعال نمایید.  
- سپس روی دکمه‌ی **Create personal access token** کلیک کنید.
+
+ سپس روی دکمه‌ی **Create personal access token** کلیک کنید.  
 
 ![screenshot](./images/3.png)
 

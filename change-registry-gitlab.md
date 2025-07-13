@@ -35,7 +35,7 @@
 در ریشه‌ی پروژه‌، فایل .npmrc را باز کرده و محتوای زیر را به آن اضافه کنید:
 
 ```ini
-//193.151.145.140:3003/api/v4/projects/156/packages/npm/:_authToken=<your-token>
+//193.151.145.140:3003/api/v4/projects/156/packages/npm/:_authToken=your-token
 @agin:registry=http://193.151.145.140:3003/api/v4/projects/156/packages/npm/
  
  ```
@@ -44,8 +44,12 @@
 
 ## ۳. نصب پکیج
 
-اکنون می‌توانید با اجرای دستور زیر، پکیج مورد نظر را نصب کنید:
+ابتدا دستور clean cache رو بزنید
+```
+npm cache clean --force
+```
+اکنون می‌توانید با اجرای دستور زیر، پکیج را نصب کنید:
 
 ```
-npm install
+npm install --save @agin/react-ui-structure
 ```

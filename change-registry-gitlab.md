@@ -21,7 +21,7 @@
 
  مقدار **Expiration date** را خالی کنید.  
 
- گزینه‌های **api** و **read_api** را فعال نمایید.  
+ گزینه‌های **api** و **read_api** و **read_registry** را فعال نمایید.  
 
  سپس روی دکمه‌ی **Create personal access token** کلیک کنید.  
 
